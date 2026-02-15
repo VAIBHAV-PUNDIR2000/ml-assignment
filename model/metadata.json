@@ -1,0 +1,165 @@
+{
+  "dataset_name": "Adult Income (OpenML)",
+  "source": "https://www.openml.org/d/1590",
+  "target_column": "income",
+  "positive_label": ">50K",
+  "feature_columns": [
+    "age",
+    "workclass",
+    "fnlwgt",
+    "education",
+    "education-num",
+    "marital-status",
+    "occupation",
+    "relationship",
+    "race",
+    "sex",
+    "capital-gain",
+    "capital-loss",
+    "hours-per-week",
+    "native-country"
+  ],
+  "trained_models": [
+    "Logistic Regression",
+    "Decision Tree",
+    "KNN",
+    "Naive Bayes",
+    "Random Forest",
+    "XGBoost"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "class_labels": [
+    "<=50K",
+    ">50K"
+  ],
+  "default_values": {
+    "age": 37.0,
+    "workclass": "Private",
+    "fnlwgt": 178134.0,
+    "education": "HS-grad",
+    "education-num": 10.0,
+    "marital-status": "Married-civ-spouse",
+    "occupation": "Prof-specialty",
+    "relationship": "Husband",
+    "race": "White",
+    "sex": "Male",
+    "capital-gain": 0.0,
+    "capital-loss": 0.0,
+    "hours-per-week": 40.0,
+    "native-country": "United-States"
+  },
+  "validation_accuracy_after_tuning": {
+    "Logistic Regression": 0.8522072936660269,
+    "Decision Tree": 0.8624440179142674,
+    "KNN": 0.8454254638515675,
+    "Naive Bayes": 0.8028150991682661,
+    "Random Forest": 0.8618042226487524,
+    "XGBoost": 0.8760076775431862
+  },
+  "ui_hints": {
+    "categorical_options": {
+      "workclass": [
+        "Private",
+        "Self-emp-not-inc",
+        "Local-gov",
+        "nan",
+        "State-gov",
+        "Self-emp-inc",
+        "Federal-gov",
+        "Without-pay",
+        "Never-worked"
+      ],
+      "education": [
+        "HS-grad",
+        "Some-college",
+        "Bachelors",
+        "Masters",
+        "Assoc-voc",
+        "11th",
+        "Assoc-acdm",
+        "10th",
+        "7th-8th",
+        "Prof-school",
+        "9th",
+        "12th",
+        "Doctorate",
+        "5th-6th",
+        "1st-4th",
+        "Preschool"
+      ],
+      "marital-status": [
+        "Married-civ-spouse",
+        "Never-married",
+        "Divorced",
+        "Separated",
+        "Widowed",
+        "Married-spouse-absent",
+        "Married-AF-spouse"
+      ],
+      "occupation": [
+        "Prof-specialty",
+        "Craft-repair",
+        "Exec-managerial",
+        "Adm-clerical",
+        "Sales",
+        "Other-service",
+        "Machine-op-inspct",
+        "nan",
+        "Transport-moving",
+        "Handlers-cleaners",
+        "Farming-fishing",
+        "Tech-support",
+        "Protective-serv",
+        "Priv-house-serv",
+        "Armed-Forces"
+      ],
+      "relationship": [
+        "Husband",
+        "Not-in-family",
+        "Own-child",
+        "Unmarried",
+        "Wife",
+        "Other-relative"
+      ],
+      "race": [
+        "White",
+        "Black",
+        "Asian-Pac-Islander",
+        "Amer-Indian-Eskimo",
+        "Other"
+      ],
+      "sex": [
+        "Male",
+        "Female"
+      ],
+      "native-country": [
+        "United-States",
+        "Mexico",
+        "nan",
+        "Philippines",
+        "Germany",
+        "Puerto-Rico",
+        "Canada",
+        "El-Salvador",
+        "India",
+        "Cuba",
+        "England",
+        "China",
+        "South",
+        "Dominican-Republic",
+        "Jamaica",
+        "Italy",
+        "Guatemala",
+        "Japan",
+        "Vietnam",
+        "Poland",
+        "Columbia",
+        "Haiti",
+        "Portugal",
+        "Taiwan",
+        "Iran"
+      ]
+    }
+  }
+}

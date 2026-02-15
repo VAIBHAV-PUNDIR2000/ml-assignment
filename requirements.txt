@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn==1.6.1
+xgboost
+joblib
+streamlit
+altair<5
+standard-imghdr
+matplotlib
+seaborn
